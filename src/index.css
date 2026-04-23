@@ -1,0 +1,38 @@
+/* Global Styles for Portfolio */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-bg-dark text-text-primary font-body m-0 antialiased;
+}
+
+/* Reset default browser styles */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Typography base styles */
+h1 {
+  @apply font-hero;
+}
+
+h2 {
+  @apply font-hero;
+}
+
+p {
+  @apply leading-blog-content;
+}
+
+a {
+  @apply transition-colors duration-200;
+}
+
+/* Code block styling (if needed in blog content) */
+code {
+  @apply bg-border-dark px-2 py-1 rounded text-sm font-mono;
+}
