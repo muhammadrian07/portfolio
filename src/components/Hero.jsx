@@ -12,25 +12,20 @@ import React from 'react';
  * - Responsive layout that stacks on mobile
  */
 function Hero() {
-  // Handle email button click
-  const handleEmailClick = () => {
-    window.location.href = 'mailto:rayankhan989ad@gmail.com';
-  };
-
   return (
     <section className="bg-bg-dark text-text-primary py-12 sm:py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Status Badge - Now a clickable button */}
+        {/* Status Badge - Now a link button */}
         <div className="flex items-center justify-center mb-8 sm:mb-10">
-          <button
-            onClick={handleEmailClick}
+          <a
+            href="mailto:rayankhan989ad@gmail.com"
             className="flex items-center space-x-2 bg-opacity-10 bg-accent-green hover:bg-opacity-20 px-4 py-2 rounded-full transition-all duration-200 cursor-pointer hover:scale-105"
             title="Click to send an email"
           >
             {/* Green dot - increased size */}
             <div className="w-3 h-3 bg-accent-green rounded-full animate-pulse"></div>
             <span className="text-sm sm:text-base font-medium text-accent-green">Available for Work</span>
-          </button>
+          </a>
         </div>
 
         {/* Main Title */}
