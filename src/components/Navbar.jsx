@@ -19,7 +19,7 @@ function Navbar() {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="bg-bg-dark text-text-primary border-b border-border-dark">
+    <nav className="bg-bg-dark text-text-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -50,6 +50,9 @@ function Navbar() {
             </Link>
           </div>
         </div>
+
+        {/* Separator line with padding (like Hero section) */}
+        <div className="border-b border-border-dark"></div>
       </div>
     </nav>
   );
