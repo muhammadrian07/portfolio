@@ -18,7 +18,7 @@ function Hero() {
         {/* Status Badge */}
         <div className="flex items-center justify-center mb-8 sm:mb-10">
           <div className="flex items-center space-x-2 bg-opacity-10 bg-accent-green px-4 py-2 rounded-full">
-            <img src="/icons/dot_icon.svg" alt="Available" className="w-2.5 h-2.5" />
+            <img src="/dot_icon.svg" alt="Available" className="w-2.5 h-2.5" />
             <span className="text-sm sm:text-base font-medium text-accent-green">Available for Work</span>
           </div>
         </div>
@@ -48,7 +48,7 @@ function Hero() {
             title="Email"
             className="hover:opacity-75 transition-opacity"
           >
-            <img src="/icons/email_icon.svg" alt="Email" className="w-6 h-6 sm:w-7 sm:h-7" />
+            <img src="/email-1-svgrepo-com.svg" alt="Email" className="w-6 h-6 sm:w-7 sm:h-7" />
           </a>
 
           {/* GitHub */}
@@ -59,7 +59,7 @@ function Hero() {
             title="GitHub"
             className="hover:opacity-75 transition-opacity"
           >
-            <img src="/icons/github_icon.svg" alt="GitHub" className="w-6 h-6 sm:w-7 sm:h-7" />
+            <img src="/github-svgrepo-com (2).svg" alt="GitHub" className="w-6 h-6 sm:w-7 sm:h-7" />
           </a>
 
           {/* LinkedIn */}
@@ -70,7 +70,7 @@ function Hero() {
             title="LinkedIn"
             className="hover:opacity-75 transition-opacity"
           >
-            <img src="/icons/linkedin_icon.svg" alt="LinkedIn" className="w-6 h-6 sm:w-7 sm:h-7" />
+            <img src="/linkedin-svgrepo-com.svg" alt="LinkedIn" className="w-6 h-6 sm:w-7 sm:h-7" />
           </a>
         </div>
 
